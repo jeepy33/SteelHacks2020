@@ -15,6 +15,10 @@
 		A685C93723F7556000CCA79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A685C93523F7556000CCA79A /* LaunchScreen.storyboard */; };
 		A685C94223F7556000CCA79A /* recyclerewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C94123F7556000CCA79A /* recyclerewardsTests.swift */; };
 		A685C94D23F7556000CCA79A /* recyclerewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C94C23F7556000CCA79A /* recyclerewardsUITests.swift */; };
+		A685C95B23F75D3600CCA79A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C95A23F75D3600CCA79A /* LoginViewController.swift */; };
+		A685C95D23F75D5E00CCA79A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C95C23F75D5E00CCA79A /* StartViewController.swift */; };
+		A685C95F23F75D6B00CCA79A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C95E23F75D6B00CCA79A /* SignupViewController.swift */; };
+		A685C96123F75D7600CCA79A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C96023F75D7600CCA79A /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A685C94823F7556000CCA79A /* recyclerewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recyclerewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A685C94C23F7556000CCA79A /* recyclerewardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recyclerewardsUITests.swift; sourceTree = "<group>"; };
 		A685C94E23F7556000CCA79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A685C95A23F75D3600CCA79A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A685C95C23F75D5E00CCA79A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A685C95E23F75D6B00CCA79A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A685C96023F75D7600CCA79A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				A685C92C23F7555E00CCA79A /* SceneDelegate.swift */,
 				A685C92E23F7555E00CCA79A /* ViewController.swift */,
 				A685C93023F7555E00CCA79A /* Main.storyboard */,
+				A685C95C23F75D5E00CCA79A /* StartViewController.swift */,
+				A685C95E23F75D6B00CCA79A /* SignupViewController.swift */,
+				A685C96023F75D7600CCA79A /* HomeViewController.swift */,
+				A685C95A23F75D3600CCA79A /* LoginViewController.swift */,
 				A685C93323F7556000CCA79A /* Assets.xcassets */,
 				A685C93523F7556000CCA79A /* LaunchScreen.storyboard */,
 				A685C93823F7556000CCA79A /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A685C95F23F75D6B00CCA79A /* SignupViewController.swift in Sources */,
+				A685C95D23F75D5E00CCA79A /* StartViewController.swift in Sources */,
+				A685C95B23F75D3600CCA79A /* LoginViewController.swift in Sources */,
 				A685C92F23F7555E00CCA79A /* ViewController.swift in Sources */,
 				A685C92B23F7555E00CCA79A /* AppDelegate.swift in Sources */,
+				A685C96123F75D7600CCA79A /* HomeViewController.swift in Sources */,
 				A685C92D23F7555E00CCA79A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +457,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tylercomisky.recyclerewards;
+				PRODUCT_BUNDLE_IDENTIFIER = tylercomisky.qrcodetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +475,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tylercomisky.recyclerewards;
+				PRODUCT_BUNDLE_IDENTIFIER = tylercomisky.qrcodetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
