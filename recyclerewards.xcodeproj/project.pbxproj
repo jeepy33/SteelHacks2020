@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B39242835C9169A8F31787 /* Pods_recyclerewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D30DCAA27A1CF725F14BC21 /* Pods_recyclerewards.framework */; };
+		5E9AA8AA91EAC89A69BC3705 /* Pods_recyclerewards_recyclerewardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F7D229864DBF422E8ADAA4 /* Pods_recyclerewards_recyclerewardsUITests.framework */; };
 		A685C92B23F7555E00CCA79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92A23F7555E00CCA79A /* AppDelegate.swift */; };
 		A685C92D23F7555E00CCA79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92C23F7555E00CCA79A /* SceneDelegate.swift */; };
 		A685C92F23F7555E00CCA79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92E23F7555E00CCA79A /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 		A685C95D23F75D5E00CCA79A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C95C23F75D5E00CCA79A /* StartViewController.swift */; };
 		A685C95F23F75D6B00CCA79A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C95E23F75D6B00CCA79A /* SignupViewController.swift */; };
 		A685C96123F75D7600CCA79A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C96023F75D7600CCA79A /* HomeViewController.swift */; };
+		A685C96323F75F9500CCA79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A685C96223F75F9500CCA79A /* GoogleService-Info.plist */; };
+		B255631C3342A4ADD5385C89 /* Pods_recyclerewardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140505059E783C9F2295A59C /* Pods_recyclerewardsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BECF6FC8E8569EE3E9AD590 /* Pods-recyclerewards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewards.debug.xcconfig"; path = "Target Support Files/Pods-recyclerewards/Pods-recyclerewards.debug.xcconfig"; sourceTree = "<group>"; };
+		140505059E783C9F2295A59C /* Pods_recyclerewardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recyclerewardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A46B7D9B3B72BDBF2A136E /* Pods-recyclerewards-recyclerewardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewards-recyclerewardsUITests.release.xcconfig"; path = "Target Support Files/Pods-recyclerewards-recyclerewardsUITests/Pods-recyclerewards-recyclerewardsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D30DCAA27A1CF725F14BC21 /* Pods_recyclerewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recyclerewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB33C0F4BD93656491D9DBB /* Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig"; path = "Target Support Files/Pods-recyclerewards-recyclerewardsUITests/Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A39913770E501183AF304C55 /* Pods-recyclerewardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewardsTests.debug.xcconfig"; path = "Target Support Files/Pods-recyclerewardsTests/Pods-recyclerewardsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3F7D229864DBF422E8ADAA4 /* Pods_recyclerewards_recyclerewardsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recyclerewards_recyclerewardsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A685C92723F7555E00CCA79A /* recyclerewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recyclerewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A685C92A23F7555E00CCA79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A685C92C23F7555E00CCA79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +68,9 @@
 		A685C95C23F75D5E00CCA79A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A685C95E23F75D6B00CCA79A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		A685C96023F75D7600CCA79A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A685C96223F75F9500CCA79A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C28E3E2803FFD21E7D08D09D /* Pods-recyclerewardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewardsTests.release.xcconfig"; path = "Target Support Files/Pods-recyclerewardsTests/Pods-recyclerewardsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBE17E4382AB93DBEFAA610B /* Pods-recyclerewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewards.release.xcconfig"; path = "Target Support Files/Pods-recyclerewards/Pods-recyclerewards.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B39242835C9169A8F31787 /* Pods_recyclerewards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B255631C3342A4ADD5385C89 /* Pods_recyclerewardsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +94,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9AA8AA91EAC89A69BC3705 /* Pods_recyclerewards_recyclerewardsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B31CE7CC19418ACA29D0362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D30DCAA27A1CF725F14BC21 /* Pods_recyclerewards.framework */,
+				A3F7D229864DBF422E8ADAA4 /* Pods_recyclerewards_recyclerewardsUITests.framework */,
+				140505059E783C9F2295A59C /* Pods_recyclerewardsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F2981C5D36587F9949C8EB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BECF6FC8E8569EE3E9AD590 /* Pods-recyclerewards.debug.xcconfig */,
+				DBE17E4382AB93DBEFAA610B /* Pods-recyclerewards.release.xcconfig */,
+				8FB33C0F4BD93656491D9DBB /* Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig */,
+				22A46B7D9B3B72BDBF2A136E /* Pods-recyclerewards-recyclerewardsUITests.release.xcconfig */,
+				A39913770E501183AF304C55 /* Pods-recyclerewardsTests.debug.xcconfig */,
+				C28E3E2803FFD21E7D08D09D /* Pods-recyclerewardsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A685C91E23F7555E00CCA79A = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +132,8 @@
 				A685C94023F7556000CCA79A /* recyclerewardsTests */,
 				A685C94B23F7556000CCA79A /* recyclerewardsUITests */,
 				A685C92823F7555E00CCA79A /* Products */,
+				4F2981C5D36587F9949C8EB8 /* Pods */,
+				0B31CE7CC19418ACA29D0362 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +150,7 @@
 		A685C92923F7555E00CCA79A /* recyclerewards */ = {
 			isa = PBXGroup;
 			children = (
+				A685C96223F75F9500CCA79A /* GoogleService-Info.plist */,
 				A685C92A23F7555E00CCA79A /* AppDelegate.swift */,
 				A685C92C23F7555E00CCA79A /* SceneDelegate.swift */,
 				A685C92E23F7555E00CCA79A /* ViewController.swift */,
@@ -147,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A685C95123F7556000CCA79A /* Build configuration list for PBXNativeTarget "recyclerewards" */;
 			buildPhases = (
+				4B697DF620A83993FBD46C6B /* [CP] Check Pods Manifest.lock */,
 				A685C92323F7555E00CCA79A /* Sources */,
 				A685C92423F7555E00CCA79A /* Frameworks */,
 				A685C92523F7555E00CCA79A /* Resources */,
+				4A0EB69C1EF4C1129038B4E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A685C95423F7556000CCA79A /* Build configuration list for PBXNativeTarget "recyclerewardsTests" */;
 			buildPhases = (
+				C2D494FAABB777C959E0A60B /* [CP] Check Pods Manifest.lock */,
 				A685C93923F7556000CCA79A /* Sources */,
 				A685C93A23F7556000CCA79A /* Frameworks */,
 				A685C93B23F7556000CCA79A /* Resources */,
@@ -182,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A685C95723F7556000CCA79A /* Build configuration list for PBXNativeTarget "recyclerewardsUITests" */;
 			buildPhases = (
+				0E8C072CAA14AD6BDD092B78 /* [CP] Check Pods Manifest.lock */,
 				A685C94423F7556000CCA79A /* Sources */,
 				A685C94523F7556000CCA79A /* Frameworks */,
 				A685C94623F7556000CCA79A /* Resources */,
+				6AA1F1D688E3868DDCF26E7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A685C93723F7556000CCA79A /* LaunchScreen.storyboard in Resources */,
+				A685C96323F75F9500CCA79A /* GoogleService-Info.plist in Resources */,
 				A685C93423F7556000CCA79A /* Assets.xcassets in Resources */,
 				A685C93223F7555E00CCA79A /* Main.storyboard in Resources */,
 			);
@@ -265,6 +315,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E8C072CAA14AD6BDD092B78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-recyclerewards-recyclerewardsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A0EB69C1EF4C1129038B4E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recyclerewards/Pods-recyclerewards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recyclerewards/Pods-recyclerewards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-recyclerewards/Pods-recyclerewards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B697DF620A83993FBD46C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-recyclerewards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA1F1D688E3868DDCF26E7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recyclerewards-recyclerewardsUITests/Pods-recyclerewards-recyclerewardsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-recyclerewards-recyclerewardsUITests/Pods-recyclerewards-recyclerewardsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-recyclerewards-recyclerewardsUITests/Pods-recyclerewards-recyclerewardsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D494FAABB777C959E0A60B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-recyclerewardsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A685C92323F7555E00CCA79A /* Sources */ = {
@@ -448,6 +601,7 @@
 		};
 		A685C95223F7556000CCA79A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BECF6FC8E8569EE3E9AD590 /* Pods-recyclerewards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +620,7 @@
 		};
 		A685C95323F7556000CCA79A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE17E4382AB93DBEFAA610B /* Pods-recyclerewards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +639,7 @@
 		};
 		A685C95523F7556000CCA79A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39913770E501183AF304C55 /* Pods-recyclerewardsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +662,7 @@
 		};
 		A685C95623F7556000CCA79A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28E3E2803FFD21E7D08D09D /* Pods-recyclerewardsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +685,7 @@
 		};
 		A685C95823F7556000CCA79A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB33C0F4BD93656491D9DBB /* Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +706,7 @@
 		};
 		A685C95923F7556000CCA79A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A46B7D9B3B72BDBF2A136E /* Pods-recyclerewards-recyclerewardsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
