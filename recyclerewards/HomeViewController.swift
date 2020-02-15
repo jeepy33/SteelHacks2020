@@ -34,7 +34,7 @@ class HomeViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         navigationItem.title = "Home"
-        navigationItem.hidesBackButton = true;
+        self.navigationController?.isNavigationBarHidden = true
         self.Score.text = String(score)
     }
     

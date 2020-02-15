@@ -70,7 +70,7 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
+        self.navigationController?.isNavigationBarHidden = false
         if (captureSession?.isRunning == false) {
             captureSession.startRunning()
         }
@@ -101,8 +101,6 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
         let points = String(code[code.index(code.endIndex, offsetBy: -3)...code.index(code.endIndex, offsetBy: -2)])
         print(points)
         score += Int(points)!
-        print(score)
-        print(code)
         performSegue(withIdentifier: "cameraToHome", sender: Any?.self)
         
     }

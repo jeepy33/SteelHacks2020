@@ -15,5 +15,8 @@ class RewardsViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = false
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
 
 }
