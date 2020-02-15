@@ -182,42 +182,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c8O-Ry-CJR">
-                                <rect key="frame" x="159" y="330" width="97" height="34"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="7ur-xu-2AO">
+                                <rect key="frame" x="-88" y="-56" width="517" height="1109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="8JZ-l2-WcE">
+                                <rect key="frame" x="-78" y="-46" width="298" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO_FINAL" translatesAutoresizingMaskIntoConstraints="NO" id="tA0-iP-HZE">
+                                <rect key="frame" x="79" y="32" width="251" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO_UNDERTEXT_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="HHJ-dW-3wp">
+                                <rect key="frame" x="27" y="257" width="355" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="s3p-2U-xxN">
+                                <rect key="frame" x="51" y="389" width="298" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-Sm-9NC">
-                                <rect key="frame" x="159" y="431" width="97" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="63v-gg-lOz">
+                                <rect key="frame" x="55" y="472" width="298" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kMd-cz-6uR">
-                                <rect key="frame" x="159" y="515" width="97" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ex-jT-FoI">
+                                <rect key="frame" x="77" y="565" width="255" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZc-K5-2Ww">
-                                <rect key="frame" x="161" y="605" width="92" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Sign Up"/>
-                                <connections>
-                                    <action selector="signUpAction:" destination="ziw-qP-XyX" eventType="touchUpInside" id="hv2-2v-HCR"/>
-                                </connections>
+                                <state key="normal" backgroundImage="Screen Shot 2020-02-14 at 9.30.55 PM"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Create Account" translatesAutoresizingMaskIntoConstraints="NO" id="Ydf-jK-6qU">
+                                <rect key="frame" x="98" y="541" width="218" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eoR-Bk-ib6"/>
                     </view>
                     <navigationItem key="navigationItem" id="WqY-JC-n8K"/>
                     <connections>
-                        <outlet property="email" destination="c8O-Ry-CJR" id="fgm-KQ-PBn"/>
-                        <outlet property="password" destination="xSy-Sm-9NC" id="AOF-Rd-Yft"/>
-                        <outlet property="passwordConfirm" destination="kMd-cz-6uR" id="gxx-oE-3jz"/>
                         <segue destination="dSR-qt-iAe" kind="show" identifier="signUpToHome" destinationCreationSelector="signupToHome:" id="YAq-aZ-qep"/>
                     </connections>
                 </viewController>
@@ -243,7 +253,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Create Account" width="163" height="23"/>
+        <image name="Create Account" width="183" height="27"/>
         <image name="Forgot Password" width="180" height="47"/>
         <image name="LOGO_FINAL" width="251" height="251"/>
         <image name="LOGO_UNDERTEXT_LOGO" width="355" height="101"/>
@@ -257,6 +267,6 @@
         <image name="winner-1" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XZ7-3t-p7f"/>
+        <segue reference="YAq-aZ-qep"/>
     </inferredMetricsTieBreakers>
 </document>
