@@ -11,10 +11,10 @@ The Smart Recycler (SR) is our prototype of the "Smart Recycle Bins" that would 
 When a user deposits a recyclable item, the SR picks up that an item has been deposited. 
 ![2](https://user-images.githubusercontent.com/56087564/74594192-59ccba00-5001-11ea-8c45-b87368d2c62d.jpg)
 
-The SR then generates a QRcode for the user to scan with their mobile app. This QRcode has a randomized element to prevent abuse of the system by repeated scanning of the same code.
+The SR then generates a QRcode for the user to scan with their mobile app. This QR Code has a randomized element to prevent abuse of the system by repeated scanning of the same code.
 ![3](https://user-images.githubusercontent.com/56087564/74594188-59342380-5001-11ea-83d6-d1190702dd31.jpg)
 
-Scanning the QRcode will result in the user recieving points on the mobile app. These points in theory would be redeemable for prizes like discounts at resturants, or University Bookstore credit.
+Scanning the QR Code will result in the user recieving points on the mobile app. These points in theory would then be redeemable for prizes like discounts at resturants, or University Bookstore credit once a user has recycled enough.
 ![4](https://user-images.githubusercontent.com/56087564/74594189-59342380-5001-11ea-8e82-def5058a219b.jpg)
 
 The prototype utilizes an Arduino UNO as the main processor, and an SSD1306 0.96in LCD screen for displaying.
