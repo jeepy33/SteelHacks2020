@@ -201,33 +201,41 @@
                                 <rect key="frame" x="27" y="257" width="355" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="s3p-2U-xxN">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="s3p-2U-xxN">
                                 <rect key="frame" x="51" y="389" width="298" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="63v-gg-lOz">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="63v-gg-lOz">
                                 <rect key="frame" x="55" y="472" width="298" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ex-jT-FoI">
-                                <rect key="frame" x="77" y="565" width="255" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ex-jT-FoI">
+                                <rect key="frame" x="79" y="692" width="251" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Screen Shot 2020-02-14 at 9.30.55 PM"/>
+                                <state key="normal" image="Create Account" backgroundImage="Screen Shot 2020-02-14 at 9.30.55 PM"/>
+                                <connections>
+                                    <action selector="signUpAction:" destination="ziw-qP-XyX" eventType="touchUpInside" id="2jR-5Y-D1z"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Create Account" translatesAutoresizingMaskIntoConstraints="NO" id="Ydf-jK-6qU">
-                                <rect key="frame" x="98" y="541" width="218" height="101"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="center" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="Wb9-VJ-Wg6">
+                                <rect key="frame" x="55" y="567" width="298" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eoR-Bk-ib6"/>
                     </view>
                     <navigationItem key="navigationItem" id="WqY-JC-n8K"/>
                     <connections>
+                        <outlet property="email" destination="s3p-2U-xxN" id="4am-hV-r91"/>
+                        <outlet property="password" destination="63v-gg-lOz" id="fFK-yE-Gzq"/>
+                        <outlet property="passwordConfirm" destination="Wb9-VJ-Wg6" id="Nkq-ln-psy"/>
                         <segue destination="dSR-qt-iAe" kind="show" identifier="signUpToHome" destinationCreationSelector="signupToHome:" id="YAq-aZ-qep"/>
                     </connections>
                 </viewController>

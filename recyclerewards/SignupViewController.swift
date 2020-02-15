@@ -28,7 +28,7 @@ class SignupViewController: UIViewController {
        @IBOutlet weak var passwordConfirm: UITextField!
 
        
-       @IBAction func signUpAction(_ sender: Any) {
+    @IBAction func signUpAction(_ sender: Any) {
            if password.text != passwordConfirm.text {
                let alertController = UIAlertController(title: "Password Incorrect", message: "Please re-type password", preferredStyle: .alert)
                
@@ -54,9 +54,9 @@ class SignupViewController: UIViewController {
        }
     
     func addUser() {
-        /*var ref: DocumentReference? = nil
+        var ref: DocumentReference? = nil
         ref = db.collection("users").addDocument(data: [
-            "email": email!,
+            "email": email.text!,
             "score": 0
         ]) { err in
             if let err = err {
@@ -64,6 +64,6 @@ class SignupViewController: UIViewController {
             } else {
                 print("Document added with ID: \(ref!.documentID)")
             }
-        }*/
+        }
     }
 }
