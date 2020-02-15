@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="7ft-br-Qc7">
-                                <rect key="frame" x="-172" y="-179" width="742" height="1183"/>
+                                <rect key="frame" x="-164" y="-179" width="742" height="1183"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="742" id="2VX-5t-4cR"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="742" id="iKJ-g2-fWi"/>
@@ -30,6 +30,10 @@
                                     <segue destination="bpe-jp-EXG" kind="show" id="CEt-NS-Q9H"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 10" translatesAutoresizingMaskIntoConstraints="NO" id="5yw-uh-wu5">
+                                <rect key="frame" x="30" y="633" width="350" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO_UNDERTEXT_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="Jke-Q5-REb">
                                 <rect key="frame" x="30" y="98" width="355" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -53,7 +57,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVA-Cf-EI0">
-                                <rect key="frame" x="-4" y="621" width="418" height="275"/>
+                                <rect key="frame" x="-1" y="614" width="418" height="275"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="camera"/>
                                 <connections>
@@ -71,24 +75,34 @@
                                 <rect key="frame" x="124" y="207" width="215" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-Yb-BEb">
-                                <rect key="frame" x="123" y="424" width="152" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-Yb-BEb">
+                                <rect key="frame" x="100" y="423" width="216" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your Score:">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="37" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNi-Yv-rOS">
-                                <rect key="frame" x="152" y="495" width="95" height="38"/>
+                                <rect key="frame" x="132" y="495" width="146" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xre-63-b91">
                                 <rect key="frame" x="51" y="322" width="298" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Path 1"/>
+                                <connections>
+                                    <segue destination="I1G-PV-fgf" kind="show" id="YQg-bL-HPf"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rewards" translatesAutoresizingMaskIntoConstraints="NO" id="xzs-6a-YHK">
                                 <rect key="frame" x="138" y="328" width="187" height="44"/>
@@ -498,7 +512,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="25,000" translatesAutoresizingMaskIntoConstraints="NO" id="tcc-u3-7Xt">
-                                <rect key="frame" x="320" y="707" width="65" height="35"/>
+                                <rect key="frame" x="319" y="707" width="65" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coin-1" translatesAutoresizingMaskIntoConstraints="NO" id="BS0-8R-xoo">
@@ -545,6 +559,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="nn5-9X-yJL"/>
                     </view>
+                    <navigationItem key="navigationItem" id="K4W-Np-ZNR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnA-8E-8cJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -555,6 +570,7 @@
         <image name="10,000" width="68" height="23"/>
         <image name="25,000" width="68" height="23"/>
         <image name="Create Account" width="163" height="23"/>
+        <image name="Ellipse 10" width="56" height="55"/>
         <image name="Forgot Password" width="180" height="47"/>
         <image name="Image 1" width="56" height="56"/>
         <image name="Image 2" width="56" height="56"/>
