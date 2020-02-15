@@ -12,6 +12,7 @@
 		5E9AA8AA91EAC89A69BC3705 /* Pods_recyclerewards_recyclerewardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F7D229864DBF422E8ADAA4 /* Pods_recyclerewards_recyclerewardsUITests.framework */; };
 		A610938023F7784E00C422EB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A610937F23F7784E00C422EB /* CameraViewController.swift */; };
 		A66103FA23F8288E005FC549 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66103F923F8288E005FC549 /* LeaderboardViewController.swift */; };
+		A6641F1D23F88E190054F5E3 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6641F1C23F88E190054F5E3 /* RewardsViewController.swift */; };
 		A685C92B23F7555E00CCA79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92A23F7555E00CCA79A /* AppDelegate.swift */; };
 		A685C92D23F7555E00CCA79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92C23F7555E00CCA79A /* SceneDelegate.swift */; };
 		A685C92F23F7555E00CCA79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92E23F7555E00CCA79A /* ViewController.swift */; };
@@ -70,6 +71,7 @@
 		A610937D23F76D1D00C422EB /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A610937F23F7784E00C422EB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A66103F923F8288E005FC549 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		A6641F1C23F88E190054F5E3 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
 		A685C92723F7555E00CCA79A /* Recycle Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recycle Rewards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A685C92A23F7555E00CCA79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A685C92C23F7555E00CCA79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				A685C92C23F7555E00CCA79A /* SceneDelegate.swift */,
 				A685C92E23F7555E00CCA79A /* ViewController.swift */,
 				A685C93023F7555E00CCA79A /* Main.storyboard */,
+				A6641F1C23F88E190054F5E3 /* RewardsViewController.swift */,
 				A66103F923F8288E005FC549 /* LeaderboardViewController.swift */,
 				A685C95C23F75D5E00CCA79A /* StartViewController.swift */,
 				A685C95E23F75D6B00CCA79A /* SignupViewController.swift */,
@@ -452,6 +455,7 @@
 				A685C95B23F75D3600CCA79A /* LoginViewController.swift in Sources */,
 				A685C92F23F7555E00CCA79A /* ViewController.swift in Sources */,
 				A66103FA23F8288E005FC549 /* LeaderboardViewController.swift in Sources */,
+				A6641F1D23F88E190054F5E3 /* RewardsViewController.swift in Sources */,
 				A685C92B23F7555E00CCA79A /* AppDelegate.swift in Sources */,
 				A610938023F7784E00C422EB /* CameraViewController.swift in Sources */,
 				A685C96123F75D7600CCA79A /* HomeViewController.swift in Sources */,
