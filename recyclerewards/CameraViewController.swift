@@ -98,7 +98,9 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     }
 
     func found(code: String) {
-        score += 50
+        let points = String(code[code.index(code.endIndex, offsetBy: -3)...code.index(code.endIndex, offsetBy: -2)])
+        print(points)
+        score += Int(points)!
         print(score)
         print(code)
         performSegue(withIdentifier: "cameraToHome", sender: Any?.self)
