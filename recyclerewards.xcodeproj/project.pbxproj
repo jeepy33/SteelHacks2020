@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B39242835C9169A8F31787 /* Pods_recyclerewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D30DCAA27A1CF725F14BC21 /* Pods_recyclerewards.framework */; };
 		5E9AA8AA91EAC89A69BC3705 /* Pods_recyclerewards_recyclerewardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F7D229864DBF422E8ADAA4 /* Pods_recyclerewards_recyclerewardsUITests.framework */; };
+		A610937A23F76AD300C422EB /* Pods_recyclerewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D30DCAA27A1CF725F14BC21 /* Pods_recyclerewards.framework */; };
+		A610938023F7784E00C422EB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A610937F23F7784E00C422EB /* CameraViewController.swift */; };
 		A685C92B23F7555E00CCA79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92A23F7555E00CCA79A /* AppDelegate.swift */; };
 		A685C92D23F7555E00CCA79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92C23F7555E00CCA79A /* SceneDelegate.swift */; };
 		A685C92F23F7555E00CCA79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685C92E23F7555E00CCA79A /* ViewController.swift */; };
@@ -50,6 +51,8 @@
 		8FB33C0F4BD93656491D9DBB /* Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig"; path = "Target Support Files/Pods-recyclerewards-recyclerewardsUITests/Pods-recyclerewards-recyclerewardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A39913770E501183AF304C55 /* Pods-recyclerewardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recyclerewardsTests.debug.xcconfig"; path = "Target Support Files/Pods-recyclerewardsTests/Pods-recyclerewardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3F7D229864DBF422E8ADAA4 /* Pods_recyclerewards_recyclerewardsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recyclerewards_recyclerewardsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A610937D23F76D1D00C422EB /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A610937F23F7784E00C422EB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A685C92723F7555E00CCA79A /* recyclerewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recyclerewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A685C92A23F7555E00CCA79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A685C92C23F7555E00CCA79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B39242835C9169A8F31787 /* Pods_recyclerewards.framework in Frameworks */,
+				A610937A23F76AD300C422EB /* Pods_recyclerewards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +107,7 @@
 		0B31CE7CC19418ACA29D0362 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A610937D23F76D1D00C422EB /* GTMSessionFetcher.framework */,
 				8D30DCAA27A1CF725F14BC21 /* Pods_recyclerewards.framework */,
 				A3F7D229864DBF422E8ADAA4 /* Pods_recyclerewards_recyclerewardsUITests.framework */,
 				140505059E783C9F2295A59C /* Pods_recyclerewardsTests.framework */,
@@ -121,7 +125,6 @@
 				A39913770E501183AF304C55 /* Pods-recyclerewardsTests.debug.xcconfig */,
 				C28E3E2803FFD21E7D08D09D /* Pods-recyclerewardsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -162,6 +165,7 @@
 				A685C93323F7556000CCA79A /* Assets.xcassets */,
 				A685C93523F7556000CCA79A /* LaunchScreen.storyboard */,
 				A685C93823F7556000CCA79A /* Info.plist */,
+				A610937F23F7784E00C422EB /* CameraViewController.swift */,
 			);
 			path = recyclerewards;
 			sourceTree = "<group>";
@@ -429,6 +433,7 @@
 				A685C95B23F75D3600CCA79A /* LoginViewController.swift in Sources */,
 				A685C92F23F7555E00CCA79A /* ViewController.swift in Sources */,
 				A685C92B23F7555E00CCA79A /* AppDelegate.swift in Sources */,
+				A610938023F7784E00C422EB /* CameraViewController.swift in Sources */,
 				A685C96123F75D7600CCA79A /* HomeViewController.swift in Sources */,
 				A685C92D23F7555E00CCA79A /* SceneDelegate.swift in Sources */,
 			);
@@ -605,6 +610,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 4KGQNJA83W;
 				INFOPLIST_FILE = recyclerewards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -624,6 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 4KGQNJA83W;
 				INFOPLIST_FILE = recyclerewards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
