@@ -443,6 +443,9 @@
                                 <rect key="frame" x="20" y="460" width="108" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Rectangle 11"/>
+                                <connections>
+                                    <segue destination="IJY-je-GOV" kind="show" id="cur-r7-B29"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgh-JS-BaX">
                                 <rect key="frame" x="285" y="297" width="108" height="123"/>
