@@ -605,6 +605,45 @@
                     <view key="view" contentMode="scaleToFill" id="d5h-PY-PGD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="mDA-d5-l39">
+                                <rect key="frame" x="-213" y="-18" width="742" height="1183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image -1" translatesAutoresizingMaskIntoConstraints="NO" id="BFA-u9-xHH">
+                                <rect key="frame" x="100" y="182" width="214" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO_UNDERTEXT_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="cu6-iZ-iKq">
+                                <rect key="frame" x="30" y="98" width="355" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="178-Ustore_color_square-01-400a" translatesAutoresizingMaskIntoConstraints="NO" id="BCh-1m-MNe">
+                                <rect key="frame" x="0.0" y="319" width="414" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dollar" translatesAutoresizingMaskIntoConstraints="NO" id="Afv-Ba-cQQ">
+                                <rect key="frame" x="99" y="583" width="108" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="IRL-xa-6fe">
+                                <rect key="frame" x="99" y="583" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0e-fn-HKw">
+                                <rect key="frame" x="49" y="743" width="318" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Image"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Claim Reward" translatesAutoresizingMaskIntoConstraints="NO" id="rca-WS-KiY">
+                                <rect key="frame" x="114" y="709" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="uf3-ud-gVJ">
+                                <rect key="frame" x="27" y="747" width="115" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="s8M-P3-q6u"/>
                     </view>
@@ -612,13 +651,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sML-hu-HvY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4219" y="826"/>
+            <point key="canvasLocation" x="4218.840579710145" y="825.66964285714278"/>
         </scene>
     </scenes>
     <resources>
         <image name="178-Ustore_color_square-01-400a" width="375" height="170"/>
+        <image name="5" width="99" height="139"/>
+        <image name="Claim Reward" width="168" height="29"/>
         <image name="Create Account" width="163" height="23"/>
         <image name="Forgot Password" width="180" height="47"/>
+        <image name="Image" width="318" height="60"/>
         <image name="Image -1" width="108" height="108"/>
         <image name="Image 1" width="56" height="56"/>
         <image name="Image 2" width="56" height="56"/>
@@ -642,6 +684,7 @@
         <image name="chickfila" width="80" height="80"/>
         <image name="chipotle" width="1200" height="1200"/>
         <image name="coin" width="23" height="23"/>
+        <image name="dollar" width="73" height="73"/>
         <image name="eight" width="58" height="58"/>
         <image name="einstien" width="867" height="836"/>
         <image name="five" width="56" height="56"/>
