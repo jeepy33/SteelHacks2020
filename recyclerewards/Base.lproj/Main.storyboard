@@ -352,10 +352,70 @@
             </objects>
             <point key="canvasLocation" x="2999" y="138"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rU3-ay-k6o">
+            <objects>
+                <viewController id="8ao-ZK-hem" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JFH-5M-1JV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="9yU-xD-r99">
+                                <rect key="frame" x="-158" y="-1" width="742" height="1183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaH-F7-kOR">
+                                <rect key="frame" x="276" y="312" width="108" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rectangle 11"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO_UNDERTEXT_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="f99-WO-3fW">
+                                <rect key="frame" x="30" y="98" width="355" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image -1" translatesAutoresizingMaskIntoConstraints="NO" id="PYN-9B-8x3">
+                                <rect key="frame" x="100" y="182" width="214" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVK-0w-4pv">
+                                <rect key="frame" x="24" y="312" width="108" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rectangle 11"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecx-DV-tA5">
+                                <rect key="frame" x="24" y="479" width="108" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rectangle 11"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWv-Ci-K0S">
+                                <rect key="frame" x="153" y="479" width="108" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rectangle 11"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emB-pK-qXn">
+                                <rect key="frame" x="171" y="489" width="108" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rectangle 11"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdB-62-yqn">
+                                <rect key="frame" x="153" y="312" width="108" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rectangle 11"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aYr-wv-4Nm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FOh-l9-9kN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2871.0144927536235" y="825.66964285714278"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Create Account" width="183" height="27"/>
         <image name="Forgot Password" width="180" height="47"/>
+        <image name="Image -1" width="108" height="108"/>
         <image name="Image 1" width="56" height="56"/>
         <image name="Image 2" width="56" height="56"/>
         <image name="Image 3" width="56" height="56"/>
@@ -364,6 +424,7 @@
         <image name="Leaderboard" width="170" height="29"/>
         <image name="Lush" width="536" height="857"/>
         <image name="Path 1" width="298" height="55"/>
+        <image name="Rectangle 11" width="108" height="123"/>
         <image name="Rectangle 2" width="298" height="55"/>
         <image name="Screen Shot 2020-02-14 at 9.30.55 PM" width="42" height="32"/>
         <image name="Sign In" width="94" height="30"/>
@@ -378,6 +439,7 @@
         <image name="winner-1" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Xz1-xx-7CX"/>
         <segue reference="7oB-K0-FkC"/>
     </inferredMetricsTieBreakers>
 </document>
