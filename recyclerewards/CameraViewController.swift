@@ -16,6 +16,7 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = false
         
         view.backgroundColor = UIColor.black
         captureSession = AVCaptureSession()
