@@ -32,3 +32,21 @@ To sense the deposited material, the prototype uses an ultrasonic sensor that tr
 In the final implementation of the SR, the system would have a vision camera that would be able to detect if an object is recyclable or not, so that it knows when to properly reward points. A vision camera accompanied by a trained Google Tenser Flow algorithm could be trained to detect this sort of thing with time and effort.
 
 ## Mobile App
+
+Page 1 is a login in display where users enter their email and password. There is also an option to create a new account. 
+
+![Login](https://user-images.githubusercontent.com/40212476/74594987-5be74680-500a-11ea-8309-de048ea65f61.png)
+
+Page 2 is the home screen that shows the users current points. It also has options to look at the leaderboard and redeem current points. 
+
+![Page2](https://user-images.githubusercontent.com/40212476/74595003-8d601200-500a-11ea-9f74-9f82e0118d94.png)
+
+Page 3 shows the create a new account screen. 
+![page3](https://user-images.githubusercontent.com/40212476/74595016-a10b7880-500a-11ea-9506-424be2cc5595.png)
+Page 4 displays the top ten on the leaderboard. 
+![Page4](https://user-images.githubusercontent.com/40212476/74595018-ad8fd100-500a-11ea-8183-b4f6480d3975.png)
+
+Page 5 is the claim rewards page. The first tier of awards worth 5,000 points (50 per recycled item) is a 10% coupon. The second tier are $5 credits at the selected store and the third tier is a $10 credit. 
+![page5](https://user-images.githubusercontent.com/40212476/74595023-ba142980-500a-11ea-8b50-bc3708af5666.png)
+Page 6 displays one of the claim rewards pages. This one for the University Store. 
+![Page6](https://user-images.githubusercontent.com/40212476/74595027-c304fb00-500a-11ea-8610-6b7a35349817.png)
