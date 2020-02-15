@@ -2,7 +2,12 @@
 ##### Contributors: Alexa Spaventa, Tyler Comisky, Akshobh Kulkarni, Jagr Krtanjek, Caela Go
 
 ## Mission
-Our main goal for the project was to create a prototype for a product that would enhance the University of Pittsburgh's recycling initiative along with bolstering our skills in both app design and robotics. 
+Seventy-five percent of all waste produced in the United States is recyclable. Despite this, only 30% of waste is actually recycled and this amounts to about $11.4 billion dollars worth of material. These statistics should be troubling enough on their own, but when one considers the threat that climate change poses to our Earth, we should ask ourselves what we can do to help. In the case of recycling, the extent of impact an individual can have is truly astounding. The average person tosses ~3.3 pounds of recyclable garbage per day, amounting to ~1,205 pounds per year, per person, that could be reused. This recycling dilemma is an epidemic that threatens the breadth and vitality of our environment, and as such, our project aims to be a stepping stone towards a solution.
+
+So why doesn’t everyone recycle? The most commonly cited reason is that it is too challenging and doesn’t provide enough of an incentive. Consequently, we utilized this rationale as a starting point. As college students, we have seen a variety of sustainability endeavors on campus including reusable containers, composting bins, and Pitt’s own Green Team that encourages recycling and zero waste living. These efforts are usually successful, but most event initiatives fail to take into account that most students tend to prioritize their busy schedules, reverting back to old habits following the conclusion and promotion of said event. This led us to search for a more long term incentive for students to recycle.
+
+After discussing our ideas, we decided that a point and reward system at the restaurants we love around campus could act as an appropriate incentive where students would be able to scan uniquely generated QR codes upon recycling. These codes would be subsequently converted into redeemable points in a mobile application. 
+
 
 ## Smart Recycler
 The Smart Recycler (SR) is our prototype of the "Smart Recycle Bins" that would accompany our project's full scale implementation. The SR is a smaller scale recycle bin, outfit with an lcd screen to display feedback to the user.
