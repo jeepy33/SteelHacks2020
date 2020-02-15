@@ -32,3 +32,11 @@ To sense the deposited material, the prototype uses an ultrasonic sensor that tr
 In the final implementation of the SR, the system would have a vision camera that would be able to detect if an object is recyclable or not, so that it knows when to properly reward points. A vision camera accompanied by a trained Google Tenser Flow algorithm could be trained to detect this sort of thing with time and effort.
 
 ## Mobile App
+
+![Login](https://user-images.githubusercontent.com/40212476/74594987-5be74680-500a-11ea-8309-de048ea65f61.png)
+
+![Page2](https://user-images.githubusercontent.com/40212476/74595003-8d601200-500a-11ea-9f74-9f82e0118d94.png)
+![page3](https://user-images.githubusercontent.com/40212476/74595016-a10b7880-500a-11ea-9506-424be2cc5595.png)
+![Page4](https://user-images.githubusercontent.com/40212476/74595018-ad8fd100-500a-11ea-8183-b4f6480d3975.png)
+![page5](https://user-images.githubusercontent.com/40212476/74595023-ba142980-500a-11ea-8b50-bc3708af5666.png)
+![Page6](https://user-images.githubusercontent.com/40212476/74595027-c304fb00-500a-11ea-8610-6b7a35349817.png)
