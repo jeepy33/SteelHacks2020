@@ -10,6 +10,8 @@ target 'recyclerewards' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'FirebaseFirestoreSwift'
 
   target 'recyclerewardsTests' do
     inherit! :search_paths

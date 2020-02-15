@@ -11,6 +11,8 @@ import UIKit
 import Firebase
 
 class SignupViewController: UIViewController {
+    
+    let db = Firestore.firestore()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +40,7 @@ class SignupViewController: UIViewController {
                Auth.auth().createUser(withEmail: email.text!, password: password.text!) {
                    (user, error) in
                    if error == nil {
+                    self.addUser()
                        self.performSegue(withIdentifier: "signUpToHome", sender: self)
                    } else {
                        let alertController = UIAlertController(title: "error", message: error?.localizedDescription, preferredStyle: .alert)
@@ -49,4 +52,18 @@ class SignupViewController: UIViewController {
                }
            }
        }
+    
+    func addUser() {
+        /*var ref: DocumentReference? = nil
+        ref = db.collection("users").addDocument(data: [
+            "email": email!,
+            "score": 0
+        ]) { err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                print("Document added with ID: \(ref!.documentID)")
+            }
+        }*/
+    }
 }
