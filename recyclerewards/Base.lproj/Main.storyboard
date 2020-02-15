@@ -21,10 +21,18 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALc-7v-rE9">
                                 <rect key="frame" x="57" y="231" width="298" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Path 1" backgroundImage="Leaderboard"/>
                                 <connections>
                                     <segue destination="bpe-jp-EXG" kind="show" id="CEt-NS-Q9H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwj-Ab-qcn">
+                                <rect key="frame" x="58" y="318" width="298" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Path 1" backgroundImage="Leaderboard"/>
+                                <connections>
+                                    <segue destination="8ao-ZK-hem" kind="show" id="VZx-1e-qM5"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO_UNDERTEXT_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="Jke-Q5-REb">
@@ -65,15 +73,8 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaderboard" translatesAutoresizingMaskIntoConstraints="NO" id="NzL-Zw-mDj">
                                 <rect key="frame" x="124" y="207" width="215" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-Yb-BEb">
-                                <rect key="frame" x="123" y="354" width="152" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNi-Yv-rOS">
                                 <rect key="frame" x="67" y="523" width="272" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -83,8 +84,15 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="winner-1" translatesAutoresizingMaskIntoConstraints="NO" id="iJo-nH-swA">
                                 <rect key="frame" x="22" y="221" width="138" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-Yb-BEb">
+                                <rect key="frame" x="127" y="406" width="152" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zlh-M9-Hme"/>
@@ -394,6 +402,9 @@
                                 <rect key="frame" x="24" y="479" width="108" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Rectangle 11"/>
+                                <connections>
+                                    <segue destination="cCh-Od-88G" kind="show" id="NCe-1J-nul"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d97-fm-fXv">
                                 <rect key="frame" x="24" y="648" width="108" height="123"/>
@@ -573,10 +584,27 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aYr-wv-4Nm"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dyW-A0-6MG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FOh-l9-9kN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2871.0144927536235" y="825.66964285714278"/>
+        </scene>
+        <!--Reward1 View Controller-->
+        <scene sceneID="ggP-u9-Slh">
+            <objects>
+                <viewController id="cCh-Od-88G" customClass="Reward1ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d5h-PY-PGD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="s8M-P3-q6u"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Aoe-4e-1XP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sML-hu-HvY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4219" y="826"/>
         </scene>
     </scenes>
     <resources>
