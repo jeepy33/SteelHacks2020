@@ -10,7 +10,7 @@
         <!--Home View Controller-->
         <scene sceneID="Ikm-1u-4pX">
             <objects>
-                <viewController id="dSR-qt-iAe" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController id="dSR-qt-iAe" customClass="HomeViewController" customModule="recyclerewards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vuD-hY-Q1C">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVA-Cf-EI0">
-                                <rect key="frame" x="-4" y="420" width="418" height="476"/>
+                                <rect key="frame" x="-4" y="621" width="418" height="275"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="camera"/>
                                 <connections>
@@ -68,11 +68,28 @@
                                 <rect key="frame" x="124" y="207" width="215" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-Yb-BEb">
+                                <rect key="frame" x="123" y="332" width="152" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNi-Yv-rOS">
+                                <rect key="frame" x="123" y="503" width="152" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zlh-M9-Hme"/>
                     </view>
                     <navigationItem key="navigationItem" id="lZn-x8-ize"/>
+                    <connections>
+                        <outlet property="Score" destination="DNi-Yv-rOS" id="Kwy-Qk-NsT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnR-pm-PZG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,7 +171,7 @@
                     <connections>
                         <outlet property="email" destination="ofd-3K-p94" id="pfP-UG-NF3"/>
                         <outlet property="password" destination="2D4-D4-bfz" id="pt7-b8-HAs"/>
-                        <segue destination="dSR-qt-iAe" kind="show" identifier="loginToHome" destinationCreationSelector="loginToHome:" id="XZ7-3t-p7f"/>
+                        <segue destination="dSR-qt-iAe" kind="show" identifier="loginToHome" destinationCreationSelector="loginToHome" id="XZ7-3t-p7f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3JL-dx-m3A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -246,10 +263,10 @@
             </objects>
             <point key="canvasLocation" x="708.69565217391312" y="596.65178571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Leaderboard View Controller-->
         <scene sceneID="wpi-7H-PKL">
             <objects>
-                <viewController id="bpe-jp-EXG" sceneMemberID="viewController">
+                <viewController id="bpe-jp-EXG" customClass="LeaderboardViewController" customModule="recyclerewards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kNi-Cd-hUv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -334,7 +351,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Create Account" width="183" height="27"/>
+        <image name="Create Account" width="163" height="23"/>
         <image name="Forgot Password" width="180" height="47"/>
         <image name="Image 1" width="56" height="56"/>
         <image name="Image 2" width="56" height="56"/>
@@ -358,6 +375,6 @@
         <image name="winner-1" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YAq-aZ-qep"/>
+        <segue reference="XZ7-3t-p7f"/>
     </inferredMetricsTieBreakers>
 </document>

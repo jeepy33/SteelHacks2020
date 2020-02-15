@@ -21,6 +21,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         view.addGestureRecognizer(tap)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is HomeViewController
+        {
+            let vc = segue.destination as? HomeViewController
+            vc?.email = email.text!
+        }
+    }
 
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!

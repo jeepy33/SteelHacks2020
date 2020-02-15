@@ -8,8 +8,11 @@
 
 import UIKit
 import AVFoundation
+import Firebase
 
 class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+    
+    let db = Firestore.firestore()
 
     var captureSession:AVCaptureSession!
     var previewLayer:AVCaptureVideoPreviewLayer!
@@ -95,6 +98,7 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
 
     func found(code: String) {
         print(code)
+        
     }
 
     override var prefersStatusBarHidden: Bool {
@@ -104,25 +108,5 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .portrait
     }
-/*
-    let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInDualCamera], mediaType: AVMediaType.video, position: .back)
-     
-    guard let captureDevice = deviceDiscoverySession.devices.first else {
-        print("Failed to get the camera device")
-        return
-    }
-     
-    do {
-        // Get an instance of the AVCaptureDeviceInput class using the previous device object.
-        let input = try AVCaptureDeviceInput(device: captureDevice)
-        
-        // Set the input device on the capture session.
-        captureSession.addInput(input)
-        
-    } catch {
-        // If any error occurs, simply print it out and don't continue any more.
-        print(error)
-        return
-    }*/
 
 }

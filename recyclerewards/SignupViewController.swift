@@ -12,6 +12,7 @@ import Firebase
 
 class SignupViewController: UIViewController {
     
+    
     let db = Firestore.firestore()
 
     override func viewDidLoad() {
@@ -20,6 +21,15 @@ class SignupViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = false
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         view.addGestureRecognizer(tap)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is HomeViewController
+        {
+            let vc = segue.destination as? HomeViewController
+            vc?.email = email.text!
+        }
     }
     
 
@@ -54,16 +64,10 @@ class SignupViewController: UIViewController {
        }
     
     func addUser() {
-        var ref: DocumentReference? = nil
-        ref = db.collection("users").addDocument(data: [
+        let emailString = email.text!
+        db.collection("users").document(emailString).setData([
             "email": email.text!,
             "score": 0
-        ]) { err in
-            if let err = err {
-                print("Error adding document: \(err)")
-            } else {
-                print("Document added with ID: \(ref!.documentID)")
-            }
-        }
+        ])
     }
 }
