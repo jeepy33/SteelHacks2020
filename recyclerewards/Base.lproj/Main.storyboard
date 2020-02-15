@@ -44,6 +44,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="2AA-VU-3KD">
                                 <rect key="frame" x="-88" y="-56" width="502" height="1057"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="ofd-3K-p94" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="51" y="389" width="298" height="55"/>
@@ -52,6 +53,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="account" translatesAutoresizingMaskIntoConstraints="NO" id="A77-mi-Mjw">
+                                <rect key="frame" x="48" y="395" width="62" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bzp-cM-7Qv">
                                 <rect key="frame" x="-78" y="-49" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -64,10 +69,10 @@
                                 <rect key="frame" x="-78" y="-49" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cb4-ZD-cpA">
-                                <rect key="frame" x="77" y="576" width="255" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cb4-ZD-cpA">
+                                <rect key="frame" x="77" y="565" width="255" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Sign In" backgroundImage="Rectangle 3"/>
+                                <state key="normal" image="Sign In" backgroundImage="Screen Shot 2020-02-14 at 9.30.55 PM"/>
                                 <connections>
                                     <action selector="loginAction:" destination="xkp-wc-qgM" eventType="touchUpInside" id="6gy-Op-MG6"/>
                                 </connections>
@@ -103,10 +108,6 @@
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="password" translatesAutoresizingMaskIntoConstraints="NO" id="HdT-Tz-4cE">
                                 <rect key="frame" x="61" y="478" width="38" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="account" translatesAutoresizingMaskIntoConstraints="NO" id="A77-mi-Mjw">
-                                <rect key="frame" x="48" y="395" width="62" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -215,7 +216,7 @@
         <image name="Lush" width="536" height="857"/>
         <image name="Rectangle 1" width="298" height="55"/>
         <image name="Rectangle 2" width="298" height="55"/>
-        <image name="Rectangle 3" width="255" height="57"/>
+        <image name="Screen Shot 2020-02-14 at 9.30.55 PM" width="42" height="32"/>
         <image name="Sign In" width="94" height="30"/>
         <image name="account" width="42" height="42"/>
         <image name="password" width="38" height="38"/>
