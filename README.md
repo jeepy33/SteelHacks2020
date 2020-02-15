@@ -14,13 +14,13 @@ When a user deposits a recyclable item, the SR picks up that an item has been de
 The SR then generates a QRcode for the user to scan with their mobile app. This QRcode has a randomized element to prevent abuse of the system by repeated scanning of the same code.
 ![3](https://user-images.githubusercontent.com/56087564/74594188-59342380-5001-11ea-83d6-d1190702dd31.jpg)
 
-Scanning the QRcode will result in the user getting points on the mobile app. These points in theory would be redeemable for prizes like discounts at resturants, or University Bookstore credit.
+Scanning the QRcode will result in the user recieving points on the mobile app. These points in theory would be redeemable for prizes like discounts at resturants, or University Bookstore credit.
 ![4](https://user-images.githubusercontent.com/56087564/74594189-59342380-5001-11ea-8e82-def5058a219b.jpg)
 
-The prototype utilizes an Arduino UNO as the main processor, and an SSD1306 .96in LCD screen for displaying.
+The prototype utilizes an Arduino UNO as the main processor, and an SSD1306 0.96in LCD screen for displaying.
 ![5](https://user-images.githubusercontent.com/56087564/74594190-59342380-5001-11ea-9496-e61e663abd93.jpg)
 
-To sense the deposited material, the prototype uses an ultrasonic sensor that triggers when an item is deposited.
+To sense the deposited material, the prototype uses an ultrasonic sensor that triggers when an item is deposited by sending and recieving sonic waves. The system then uses the constant speed of sound to compute the distance an object is away.
 ![6](https://user-images.githubusercontent.com/56087564/74594191-59ccba00-5001-11ea-839e-8c2df4878076.jpg)
 
 In the final implementation of the SR, the system would have a vision camera that would be able to detect if an object is recyclable or not, so that it knows when to properly reward points. A vision camera accompanied by a trained Google Tenser Flow algorithm could be trained to detect this sort of thing with time and effort.
