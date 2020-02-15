@@ -88,7 +88,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggt-Nh-3as" userLabel="startRegisterButton">
-                                <rect key="frame" x="126" y="648" width="162" height="22"/>
+                                <rect key="frame" x="122" y="642" width="162" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" backgroundImage="Create Account"/>
@@ -110,6 +110,11 @@
                                 <rect key="frame" x="61" y="478" width="38" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ht-C4-LVF">
+                                <rect key="frame" x="115" y="653" width="180" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Forgot Password"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sLX-nU-NyP"/>
@@ -211,6 +216,7 @@
     </scenes>
     <resources>
         <image name="Create Account" width="163" height="23"/>
+        <image name="Forgot Password" width="180" height="47"/>
         <image name="LOGO_FINAL" width="251" height="251"/>
         <image name="LOGO_UNDERTEXT_LOGO" width="355" height="101"/>
         <image name="Lush" width="536" height="857"/>
