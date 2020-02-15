@@ -13,6 +13,8 @@ import Firebase
 class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
     let db = Firestore.firestore()
+    
+    var email: String = ""
 
     var captureSession:AVCaptureSession!
     var previewLayer:AVCaptureVideoPreviewLayer!
@@ -95,10 +97,24 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
 
         dismiss(animated: true)
     }
+    
+    func getScore() -> Int {
+        var scoreString = 0
+        let userTable = db.collection("users").document(email)
+        userTable.getDocument { (document, error) in
+        if let document = document, document.exists {
+            let property = document.get("score")
+            scoreString = property as! Int
+        }
+        }
+        
+        return scoreString
+    }
 
     func found(code: String) {
-        print(code)
         
+        print(code)
+        db.collection("users").document(email).setValue(50, forKey: "score")
     }
 
     override var prefersStatusBarHidden: Bool {
