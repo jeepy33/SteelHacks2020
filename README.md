@@ -17,6 +17,7 @@ When a user deposits a recyclable item, the SR picks up that an item has been de
 ![2](https://user-images.githubusercontent.com/56087564/74594192-59ccba00-5001-11ea-8c45-b87368d2c62d.jpg)
 
 The SR then generates a QRcode for the user to scan with their mobile app. This QR Code has a randomized element to prevent abuse of the system by repeated scanning of the same code.
+
 ![3](https://user-images.githubusercontent.com/56087564/74594188-59342380-5001-11ea-83d6-d1190702dd31.jpg)
 
 Scanning the QR Code will result in the user recieving points on the mobile app. These points in theory would then be redeemable for prizes like discounts at resturants, or University Bookstore credit once a user has recycled enough.
