@@ -41,31 +41,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cb4-ZD-cpA">
-                                <rect key="frame" x="184" y="572" width="46" height="57"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="2AA-VU-3KD">
+                                <rect key="frame" x="-70" y="-73" width="502" height="1057"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cb4-ZD-cpA">
+                                <rect key="frame" x="94" y="573" width="255" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Sign In" backgroundImage="Rectangle 3"/>
                                 <connections>
                                     <action selector="loginAction:" destination="xkp-wc-qgM" eventType="touchUpInside" id="6gy-Op-MG6"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qmi-72-5rO">
-                                <rect key="frame" x="159" y="410" width="97" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="Rectangle 1" translatesAutoresizingMaskIntoConstraints="NO" id="Qmi-72-5rO">
+                                <rect key="frame" x="75" y="407" width="293" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ofd-3K-p94">
-                                <rect key="frame" x="159" y="494" width="97" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="ofd-3K-p94">
+                                <rect key="frame" x="80" y="485" width="288" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggt-Nh-3as" userLabel="startRegisterButton">
-                                <rect key="frame" x="169" y="637" width="87" height="52"/>
+                                <rect key="frame" x="157" y="647" width="115" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Register"/>
+                                <state key="normal" backgroundImage="Create Account"/>
                                 <connections>
                                     <segue destination="ziw-qP-XyX" kind="show" id="dqz-e0-4tz"/>
                                 </connections>
@@ -83,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3JL-dx-m3A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="138"/>
+            <point key="canvasLocation" x="-259.4202898550725" y="137.94642857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3YD-OA-iNh">
@@ -169,6 +173,14 @@
             <point key="canvasLocation" x="2999" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Create Account" width="163" height="23"/>
+        <image name="Lush" width="536" height="857"/>
+        <image name="Rectangle 1" width="298" height="55"/>
+        <image name="Rectangle 2" width="298" height="55"/>
+        <image name="Rectangle 3" width="255" height="57"/>
+        <image name="Sign In" width="94" height="30"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="XZ7-3t-p7f"/>
     </inferredMetricsTieBreakers>
