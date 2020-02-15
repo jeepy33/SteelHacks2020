@@ -14,12 +14,13 @@ class HomeViewController: UIViewController {
     let db = Firestore.firestore()
     
     @IBOutlet weak var Score: UILabel!
+    var score: Int = 0
     var email: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.navigationController?.isNavigationBarHidden = true
-        self.Score.text = getScore()
+        self.Score.text = String(score)
         db.collection("users").getDocuments() { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
@@ -34,6 +35,16 @@ class HomeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         navigationItem.title = "Home"
         navigationItem.hidesBackButton = true;
+        self.Score.text = String(score)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is CameraViewController
+        {
+            let vc = segue.destination as? CameraViewController
+            vc?.score = score
+        }
     }
     
     func getScore() -> String {

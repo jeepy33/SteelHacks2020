@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="dSR-qt-iAe" customClass="HomeViewController" customModule="recyclerewards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vuD-hY-Q1C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="7ft-br-Qc7">
@@ -268,7 +268,7 @@
             <objects>
                 <viewController id="bpe-jp-EXG" customClass="LeaderboardViewController" customModule="recyclerewards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kNi-Cd-hUv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lush" translatesAutoresizingMaskIntoConstraints="NO" id="q9z-gQ-0YO">
@@ -338,12 +338,15 @@
             <objects>
                 <viewController id="guZ-m3-7iG" customClass="CameraViewController" customModule="recyclerewards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eb0-L8-D7N">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="mIZ-B1-RIK"/>
                     </view>
                     <navigationItem key="navigationItem" id="oog-aT-Mg9"/>
+                    <connections>
+                        <segue destination="dSR-qt-iAe" kind="show" identifier="cameraToHome" id="7oB-K0-FkC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNE-Dr-Bev" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -351,7 +354,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Create Account" width="163" height="23"/>
+        <image name="Create Account" width="183" height="27"/>
         <image name="Forgot Password" width="180" height="47"/>
         <image name="Image 1" width="56" height="56"/>
         <image name="Image 2" width="56" height="56"/>
@@ -375,6 +378,6 @@
         <image name="winner-1" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XZ7-3t-p7f"/>
+        <segue reference="7oB-K0-FkC"/>
     </inferredMetricsTieBreakers>
 </document>

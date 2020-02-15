@@ -16,6 +16,7 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
 
     var captureSession:AVCaptureSession!
     var previewLayer:AVCaptureVideoPreviewLayer!
+    var score: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,8 +98,20 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     }
 
     func found(code: String) {
+        score += 50
+        print(score)
         print(code)
+        performSegue(withIdentifier: "cameraToHome", sender: Any?.self)
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is HomeViewController
+        {
+            let vc = segue.destination as? HomeViewController
+            vc?.score = score
+        }
     }
 
     override var prefersStatusBarHidden: Bool {
