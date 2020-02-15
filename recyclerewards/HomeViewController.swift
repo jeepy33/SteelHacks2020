@@ -30,15 +30,6 @@ class HomeViewController: UIViewController {
             }
         }
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
-        if segue.destination is CameraViewController
-        {
-            let vc = segue.destination as? CameraViewController
-            vc?.email = email
-        }
-    }
 
     override func viewWillAppear(_ animated: Bool) {
         navigationItem.title = "Home"
